@@ -22,6 +22,7 @@ typedef Eigen::Vector3d V3D;
 typedef Eigen::Matrix3d M3D;
 typedef Eigen::VectorXd VXD;
 typedef Eigen::MatrixXd MXD;
+typedef Eigen::Matrix<double, 1, 1> M1D;
 inline M3D gSM(const V3D& vec){
   return kindr::getSkewMatrixFromVector(vec);
 }
